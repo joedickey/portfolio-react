@@ -1,0 +1,44 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.About_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.About_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+
+.About_title {
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+.About_desc {
+    margin: 0px 0px 5px 0px;
+}
+
+.Links_option {
+    margin: 10px 15px;
+    color: #1E1E24;
+}
+
+#main_photo {
+    height: 300px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 20px 0px 10px 0px;
+}
+
+h2 {
+    margin: 0px 0px 20px 0px;
+}
