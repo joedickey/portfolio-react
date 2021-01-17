@@ -4,6 +4,7 @@ import Header from './Header/Header'
 import About from './About/About'
 import Project from './Project/Project'
 import Contact from './Contact/Contact'
+import References from './References/References'
 
 class App extends Component {
 
@@ -17,8 +18,14 @@ class App extends Component {
         <h2 className='Section_title'>Projects</h2>
         <div id='projects' className='App_view_container'>
           <Project />
+          <hr></hr>
           <Project />
+          <hr></hr>
           <Project />
+        </div>
+        <h2 className='Section_title'>References</h2>
+        <div id='references' className='App_view_container'>
+          <References />
         </div>
         <h2 className='Section_title'>Contact</h2>
         <div id='contact' className='App_view_container'>

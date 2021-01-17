@@ -2,12 +2,20 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .Contact_text {
     margin: 10px;
     text-align: center;
+}
+
+.Contact_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 label {
@@ -16,15 +24,31 @@ label {
 
 textarea {
     margin-bottom: 10px;
-    width: 200px;
+    width: 250px;
+    box-shadow: 0px 3px 15px rgba(0,0,0, 0.1);
+    border: none;
+    padding: 5px;
 }
 
 input {
-    width: 200px;
+    width: 250px;
+    border: none;
+    margin-bottom: 5px;
+    box-shadow: 0px 3px 15px rgba(0,0,0, 0.1);
+    padding: 5px;
 }
 
 #submit {
+    margin-top: 10px;
     align-self: center;
     width: 80px;
     text-align: center;
+    border-radius: 2%;
+    box-shadow: 0px 3px 15px rgba(0,0,0, 0.1);
+    background-color: #666552;
+    color: #F1F2F1; 
+}
+
+#submit:hover {
+    color: #d8d7d7; 
 }

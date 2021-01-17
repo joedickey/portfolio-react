@@ -3,26 +3,31 @@
     flex-direction: column;
     align-items: center;
     margin: 15px 0px;
+    width: 100%;
+    min-width: 250px;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 3px 15px rgba(0,0,0, 0.1);
+    border-radius: 2%;
 }
 
 .Project_photo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
     border-bottom: none;
-    border-radius: 4px 4px 0px 0px;
-    padding: 5px;
     width: 100%;
+}
+
+.Project_image {
+    height: 250px;
+    border-radius: 2%;
 }
 
 .Project_info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 0px 0px 4px 4px;
-    padding: 5px;
     width: 100%;
 }
 
@@ -37,19 +42,25 @@
 .Project_links  {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: smaller;
     text-align: center;
 }
 
 .Project_link_option {
-    margin: 5px
+    margin: 5px;
 }
 
 .Project_skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 5px;
     text-align: center;
+    max-width: 220px;
 }
 
 .Project_skill_option {

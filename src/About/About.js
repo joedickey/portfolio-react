@@ -17,7 +17,7 @@ class About extends Component {
         </div>
         <div className='About_text'>
             <h3 className='About_title'>About Me</h3>
-            <p className='About_desc'>This is where I will tell you all about me. It will be very interesting and will definitely make you want to hire me. Also I like music, isn't that interesting?</p>
+            <p className='About_desc'>I am a full-stack developer who is proficient with Javascript, React, HTML, CSS, Node.js, and PostgreSQL. I am a graduate of the Thinkful engineering program coming from a background of working as a professional musician. As a bass player, I have performed and recorded internationally with Grammy-winning musicians as well as produced and released music for my electronic music project, Body Copy, on a number of independent labels.</p>
         </div>
       </div>
     )
