@@ -5,10 +5,11 @@
     margin: 15px 0px;
     width: 100%;
     min-width: 250px;
+    max-width: 500px;
     padding: 5px;
-    border: 1px solid black;
     box-shadow: 0px 3px 15px rgba(0,0,0, 0.1);
-    border-radius: 2%;
+    border: 1px solid rgba(0,0,0, 0.1);
+    background-color:#F1F2F1;
 }
 
 .Project_photo {
@@ -16,12 +17,15 @@
     flex-direction: column;
     align-items: center;
     border-bottom: none;
-    width: 100%;
+
 }
 
 .Project_image {
-    height: 250px;
-    border-radius: 2%;
+    width: 98%;
+
+    margin-top: 5px;
+    box-shadow: 0px 3px 15px rgba(0,0,0, 0.1);
+    border: 1px solid rgba(0,0,0, 0.1);
 }
 
 .Project_info {
@@ -32,11 +36,20 @@
 }
 
 .Project_title {
-    margin: 5px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .Project_desc {
-    margin: 0px;
+    margin: 0px 5px;
+}
+
+.Project_heading {
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px 0px 0px;
 }
 
 .Project_links  {
@@ -47,10 +60,17 @@
     justify-content: center;
     font-size: smaller;
     text-align: center;
+    color: black;
 }
 
 .Project_link_option {
-    margin: 5px;
+    margin: 5px 10px 0px 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.Project_link_option:visited {
+    color: black;
 }
 
 .Project_skills {
@@ -64,9 +84,12 @@
 }
 
 .Project_skill_option {
-    font-size: smaller;
+    font-size: 12px;
     padding: 2.5px;
-    margin: 2.5px;
-    border: 1px solid black;
-    border-radius: 4px;
+    margin: 5px 2.5px;
+    background-color: #666552;
+    color: #F1F2F1; 
+    box-shadow: 0px 3px 15px rgba(0,0,0, 0.2);
+    border: 1px solid rgba(0,0,0, 0.1);
+    min-width: 34.18px;
 }

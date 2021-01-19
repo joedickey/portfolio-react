@@ -15,16 +15,17 @@
     text-align: center;
     background-color: #666552;
     color: #F1F2F1; 
+    box-shadow: 0px 3px 15px rgba(0,0,0, 0.2);
     width: 100%;
     margin: 0px;
-    padding: 5px;
-    box-shadow: 0px 3px 15px rgba(0,0,0, 0.2);
+    padding: 5px;    
 }
 
 a:link {
     text-decoration: none;
     transition: transform 0.2s;
 }
+
 
 a:hover {
     transform: scale(1.15)

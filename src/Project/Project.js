@@ -1,41 +1,27 @@
 import React, {Component} from 'react'
 import './Project.css';
-import MainPhoto from '../images/main_photo.jpg'
 
 class Project extends Component {
 
   render () {
-    const slideImages = [
-        '../images/test.jpeg',
-      ]
-
+    const links = this.props.links.map((link, idx) => <a  key={`link_${idx}`} href={link.url} target='_blank' rel='noreferrer' className='Project_link_option'>{link.name}</a>)
+    const skills = this.props.tech.map((skill, idx) => <span key={`skill_${idx}`} className='Project_skill_option'>{skill}</span> )
+    
     return (
-      <div className='Project'>
+      <div className='Project' key={`proj_${this.props.key_val}`}>
             <div className='Project_photo'>
-                <img className='Project_image' src={MainPhoto} alt='1'></img>
+                <img className='Project_image' src={this.props.screenshot} alt='project_image'></img>
             </div>
             <div className='Project_info'>
-                <h3 className='Project_title'>Project Title</h3>
-                <p className='Project_desc'>Project description</p>
+                <h3 className='Project_title'>{this.props.title}</h3>
+                <p className='Project_desc'>{this.props.desc}</p>
+                <p className='Project_heading'>Links:</p>
                 <div className='Project_links'>
-                    <a href='' target='_blank' rel='noreferrer' className='Project_link_option'>
-                        Live App
-                    </a>
-                    <a href='' target='_blank' rel='noreferrer' className='Project_link_option'>
-                        Client Repo
-                    </a>
-                    <a href='' target='_blank' rel='noreferrer' className='Project_link_option'>
-                        API Repo
-                    </a>
+                    {links}
                 </div>
+                <p className='Project_heading'>Technology Used:</p>
                 <div className='Project_skills'>
-                    <span className='Project_skill_option'>Skill 1</span>
-                    <span className='Project_skill_option'>Skill 2</span>
-                    <span className='Project_skill_option'>Skill 3</span>
-                    <span className='Project_skill_option'>Skill 4</span>
-                    <span className='Project_skill_option'>Skill 5</span>
-                    <span className='Project_skill_option'>Skill 6</span>
-                    
+                    {skills}
                 </div>
             </div>
         </div>
