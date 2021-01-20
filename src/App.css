@@ -30,3 +30,19 @@ a:link {
 a:hover {
     transform: scale(1.15)
 }
+
+@media all and (min-width: 1000px) {
+    .App_view_container {
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 20px 0px;
+    }
+
+    .Section_title {
+        padding: 10px 20px;
+    }
+
+    hr {
+        display: none;
+    }
+}

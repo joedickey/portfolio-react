@@ -10,7 +10,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 500px;  
+    max-width: 500px; 
+    margin-right: 5px; 
+    margin-left: 5px;
 }
 
 .References_quote {
@@ -31,4 +33,18 @@
 .References_title {
     font-size: small;
     margin: 0px 0px 15px 0px;
+}
+
+@media all and (min-width: 1000px) {
+    .References {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .References_text {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
 }
