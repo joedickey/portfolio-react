@@ -35,7 +35,7 @@ class Contact extends Component {
             <label htmlFor='name'>Name:</label>
             <input type='text' id='name' name='name' value={this.state.formName} required  onChange={(e) => this.handleChange(e)}/>
             <label htmlFor='email'>Email:</label>
-            <input id='email' name='email' pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$' value={this.state.formEmail}  required onChange={(e) => this.handleChange(e)}/>
+            <input id='email' name='email' value={this.state.formEmail}  required onChange={(e) => this.handleChange(e)}/>
             <label htmlFor='message'>Message:</label>
             <textarea id='message' name='message' maxLength='200' rows='4' value={this.state.formMessage}  required onChange={(e) => this.handleChange(e)}/>
             <input id='submit' type='submit' name='submit' value='Submit' /> 
