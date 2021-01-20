@@ -22,7 +22,7 @@ export const projects = [
     {
         'title': 'TR-BOT',
         'screenshot': '/images/trbot.png',
-        'desc': "The TR-BOT is a drum machine application that allows a user to create musical percussion tracks in their browser. The TR-BOT's name is inspired by the iconic line of Roland's hardware drum machines (i.e. TR-808, TR-909, TR-606) and by default, the app supplies 6 individual drum sounds",
+        'desc': "The TR-BOT is a drum machine application that allows a user to create musical percussion tracks in their browser. The TR-BOT's name is inspired by the iconic line of Roland's hardware drum machines (i.e. TR-808, TR-909, TR-606) and by default, the app supplies 6 individual drum sounds.",
         'links': [
             {   
                 'name': 'Live App',
