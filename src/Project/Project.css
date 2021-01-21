@@ -94,6 +94,15 @@
     min-width: 34.18px;
 }
 
+.Photo_link:link {
+    transition: none;
+}
+
+
+.Photo_link:hover {
+    transform: none;
+}
+
 @media all and (min-width: 1000px) {
     .Project {
         margin-left: 1.25%;

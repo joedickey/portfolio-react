@@ -10,7 +10,9 @@ class Project extends Component {
     return (
       <div className='Project' key={`proj_${this.props.key_val}`}>
             <div className='Project_photo'>
-                <img className='Project_image' src={this.props.screenshot} alt='project_image'></img>
+                <a href={this.props.links[0].url} target='_blank' rel='noreferrer' className='Photo_link'>
+                  <img className='Project_image' src={this.props.screenshot} alt='project_image'></img>
+                </a>
             </div>
             <div className='Project_info'>
                 <h3 className='Project_title'>{this.props.title}</h3>
